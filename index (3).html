@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HalalFund</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lottie Animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body class="bg-white text-gray-700 font-sans">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 bg-white shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      
+      <!-- LOGO SIMPLE MODERN -->
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 bg-green-400 rounded-lg flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              d="M12 3l9 6-9 6-9-6 9-6z M3 15l9 6 9-6"/>
+          </svg>
+        </div>
+        <h1 class="text-xl font-bold text-green-500">HalalFund</h1>
+      </div>
+
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#" class="hover:text-green-500">Home</a>
+        <a href="#fitur" class="hover:text-green-500">Fitur</a>
+        <a href="#cara" class="hover:text-green-500">Cara Kerja</a>
+        <a href="#kontak" class="hover:text-green-500">Kontak</a>
+      </nav>
+
+      <button class="bg-green-400 hover:bg-green-500 text-white px-4 py-2 rounded-lg text-sm transition">
+        Mulai
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+          Smart Sharia Financing for UMKM
+        </h1>
+        <p class="mt-4 text-gray-600">
+          Membantu UMKM mendapatkan akses pembiayaan berbasis syariah secara lebih cepat, transparan, dan berbasis teknologi.
+        </p>
+
+        <div class="mt-6 flex gap-4">
+          <button class="bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-xl shadow transition">
+            Get Started
+          </button>
+          <button class="border border-green-400 text-green-500 hover:bg-green-50 px-6 py-3 rounded-xl transition">
+            Ajukan Pembiayaan
+          </button>
+        </div>
+      </div>
+
+      <!-- BANK ANIMATION -->
+      <div class="flex justify-center">
+        <lottie-player 
+          src="https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json" 
+          background="transparent"  
+          speed="1"  
+          style="width: 320px; height: 320px;"  
+          loop  
+          autoplay>
+        </lottie-player>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="py-16 bg-gray-50 text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900">
+        Masih Sulit Mendapatkan Pembiayaan Syariah?
+      </h2>
+      <p class="mt-4 text-gray-600">
+        Banyak UMKM mengalami kesulitan dalam mengakses pembiayaan karena proses yang rumit, keterbatasan data usaha, serta belum optimalnya sistem penilaian kelayakan.
+      </p>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900">
+          Solusi Digital untuk Pembiayaan UMKM Syariah
+        </h2>
+        <p class="mt-4 text-gray-600">
+          HalalFund hadir sebagai platform digital yang menghubungkan UMKM dengan lembaga keuangan syariah melalui sistem yang lebih efisien dan berbasis teknologi.
+        </p>
+      </div>
+
+      <!-- BANK ANIMATION -->
+      <div class="flex justify-center">
+        <lottie-player 
+          src="https://assets1.lottiefiles.com/packages/lf20_5ngs2ksb.json" 
+          background="transparent"  
+          speed="1"  
+          style="width: 300px; height: 300px;"  
+          loop  
+          autoplay>
+        </lottie-player>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="fitur" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">
+        Fitur Utama
+      </h2>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+          <svg class="w-8 h-8 text-green-500 mb-3 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" d="M11 11V3h2v8h8v2h-8v8h-2v-8H3v-2z"/>
+          </svg>
+          <h3 class="font-semibold text-lg">Smart Risk Assessment</h3>
+          <p class="text-sm mt-2 text-gray-600">Analisis kelayakan usaha secara cepat.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+          <svg class="w-8 h-8 text-green-500 mb-3 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" d="M12 8c-4 0-7 2-7 4s3 4 7 4 7-2 7-4-3-4-7-4z"/>
+          </svg>
+          <h3 class="font-semibold text-lg">Sharia Recommendation</h3>
+          <p class="text-sm mt-2 text-gray-600">Rekomendasi sesuai prinsip syariah.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+          <svg class="w-8 h-8 text-green-500 mb-3 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" d="M5 13l4 4L19 7"/>
+          </svg>
+          <h3 class="font-semibold text-lg">Easy Process</h3>
+          <p class="text-sm mt-2 text-gray-600">Pengajuan cepat dan mudah.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
+          <svg class="w-8 h-8 text-green-500 mb-3 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-width="2" d="M3 3v18h18"/>
+          </svg>
+          <h3 class="font-semibold text-lg">Monitoring</h3>
+          <p class="text-sm mt-2 text-gray-600">Pantau usaha secara real-time.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS (UPGRADED) -->
+  <section id="cara" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      
+      <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">
+        Cara Kerja
+      </h2>
+
+      <div class="grid md:grid-cols-5 gap-8 relative">
+
+        <!-- LINE CONNECTOR -->
+        <div class="hidden md:block absolute top-10 left-0 right-0 h-1 bg-green-200"></div>
+
+        <!-- STEP 1 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            1
+          </div>
+          <h3 class="mt-4 font-semibold">Daftarkan Usaha</h3>
+          <p class="text-sm mt-2 text-gray-600">Buat akun dan daftarkan UMKM Anda</p>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            2
+          </div>
+          <h3 class="mt-4 font-semibold">Isi Data Bisnis</h3>
+          <p class="text-sm mt-2 text-gray-600">Lengkapi data keuangan dan usaha</p>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            3
+          </div>
+          <h3 class="mt-4 font-semibold">Analisis Sistem</h3>
+          <p class="text-sm mt-2 text-gray-600">AI menilai kelayakan usaha Anda</p>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            4
+          </div>
+          <h3 class="mt-4 font-semibold">Rekomendasi</h3>
+          <p class="text-sm mt-2 text-gray-600">Dapatkan opsi pembiayaan syariah</p>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            5
+          </div>
+          <h3 class="mt-4 font-semibold">Ajukan & Pantau</h3>
+          <p class="text-sm mt-2 text-gray-600">Ajukan dan pantau progress pembiayaan</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="py-16 bg-green-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-gray-900">
+        Mendorong UMKM Naik Kelas
+      </h2>
+      <p class="mt-4 text-gray-700">
+        Membuka akses pembiayaan lebih luas dan membantu pertumbuhan usaha.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 text-center">
+    <div class="max-w-xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-900">
+        Mulai Perjalanan Usaha Anda Hari Ini
+      </h2>
+      <button class="mt-6 bg-green-400 hover:bg-green-500 text-white px-8 py-3 rounded-xl shadow transition">
+        Mulai Sekarang
+      </button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="kontak" class="bg-gray-100 py-6 text-center text-sm text-gray-500">
+    <p class="font-semibold text-gray-700">HalalFund</p>
+    <p>Pembiayaan Syariah Digital untuk UMKM</p>
+    <p class="mt-2">© 2026 HalalFund</p>
+  </footer>
+
+</body>  <!-- HOW IT WORKS (UPGRADED) -->
+  <section id="cara" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-6">
+      
+      <h2 class="text-3xl font-bold text-center text-gray-900 mb-16">
+        Cara Kerja
+      </h2>
+
+      <div class="grid md:grid-cols-5 gap-8 relative">
+
+        <!-- LINE CONNECTOR -->
+        <div class="hidden md:block absolute top-10 left-0 right-0 h-1 bg-green-200"></div>
+
+        <!-- STEP 1 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            1
+          </div>
+          <h3 class="mt-4 font-semibold">Daftarkan Usaha</h3>
+          <p class="text-sm mt-2 text-gray-600">Buat akun dan daftarkan UMKM Anda</p>
+        </div>
+
+        <!-- STEP 2 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            2
+          </div>
+          <h3 class="mt-4 font-semibold">Isi Data Bisnis</h3>
+          <p class="text-sm mt-2 text-gray-600">Lengkapi data keuangan dan usaha</p>
+        </div>
+
+        <!-- STEP 3 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            3
+          </div>
+          <h3 class="mt-4 font-semibold">Analisis Sistem</h3>
+          <p class="text-sm mt-2 text-gray-600">AI menilai kelayakan usaha Anda</p>
+        </div>
+
+        <!-- STEP 4 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            4
+          </div>
+          <h3 class="mt-4 font-semibold">Rekomendasi</h3>
+          <p class="text-sm mt-2 text-gray-600">Dapatkan opsi pembiayaan syariah</p>
+        </div>
+
+        <!-- STEP 5 -->
+        <div class="relative text-center group">
+          <div class="w-16 h-16 mx-auto bg-green-400 text-white flex items-center justify-center rounded-full shadow-lg text-xl font-bold group-hover:scale-110 transition">
+            5
+          </div>
+          <h3 class="mt-4 font-semibold">Ajukan & Pantau</h3>
+          <p class="text-sm mt-2 text-gray-600">Ajukan dan pantau progress pembiayaan</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</html>
